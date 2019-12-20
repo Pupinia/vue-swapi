@@ -1,7 +1,7 @@
 <template>
-  <div>
+  <el-row>
     <person v-for="person in people" :key="person.id" :person="person" />
-  </div>
+  </el-row>
 </template>
 
 <script>

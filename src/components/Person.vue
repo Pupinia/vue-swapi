@@ -1,8 +1,10 @@
 <template>
-  <div>
-    <div>{{ person.name }}</div>
-    <div>{{ person.height }}</div>
-  </div>
+  <el-col :span="4">
+    <el-card>
+      <div>{{ person.name }}</div>
+      <div>{{ person.height }}</div>
+    </el-card>
+  </el-col>
 </template>
 
 <script>
